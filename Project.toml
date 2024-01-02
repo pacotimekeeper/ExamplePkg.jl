@@ -1,0 +1,13 @@
+name = "ExamplePkg"
+uuid = "c12ec2f3-a429-4a9a-8de8-efc9b58bee58"
+authors = ["Paco Ho"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
